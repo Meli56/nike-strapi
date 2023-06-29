@@ -38,7 +38,7 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
                                                 return (
                                                     <Link
                                                         key={submenu.id}
-                                                        href={`/`}
+                                                        href={`/category/${submenu.name}`}
                                                     >
                                                         <li className="h-12 flex justify-between items-center px-3 hover:bg-black/[0.03] rounded-md">
                                                             {submenu.name}
