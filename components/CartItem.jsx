@@ -21,7 +21,7 @@ const CartItem = ({ data }) => {
         <div className="flex py-5 gap-3 md:gap-5 border-b">
             {/* IMAGE START */}
             <div className="shrink-0 aspect-square w-[50px] md:w-[120px]">
-                <img src={`https://nike-strapi.vercel.app/uploads/${p.thumbnail.data.attributes.hash}.webp`} alt={p.name} width="120" heigth="120" />
+                <img src={`https://nike-strapi.vercel.app${p.thumbnail.data.attributes.url}`} alt={p.name} width="120" heigth="120" />
             </div>
             {/* IMAGE END */}
 
