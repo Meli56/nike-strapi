@@ -15,7 +15,7 @@ const ProductDetailsCarousel = ({images}) => {
                 {images?.map((img) => (
                     <img
                         key={img.id}
-                        src={`https://nike-strapi.vercel.app/uploads/${img.attributes.hash}.webp`}
+                        src={`https://shoe-store-uyxb.onrender.com${img.attributes.url}`}
                         alt={img.attributes.name}
                     />
                 ))}
