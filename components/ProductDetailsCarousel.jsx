@@ -15,7 +15,7 @@ const ProductDetailsCarousel = ({images}) => {
                 {images?.map((img) => (
                     <img
                         key={img.id}
-                        src={`http://127.0.0.1:1337/uploads/${img.attributes.hash}.webp`}
+                        src={`https://nike-strapi.vercel.app/uploads/${img.attributes.hash}.webp`}
                         alt={img.attributes.name}
                     />
                 ))}

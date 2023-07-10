@@ -8,7 +8,7 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
             href={`/product/${p.slug}`}
             className="transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer"
         >
-            <img src={`http://127.0.0.1:1337/uploads/${p.thumbnail.data.attributes.hash}.webp`} alt={p.name} width="500" heigth="500" />
+            <img src={`https://nike-strapi.vercel.app/uploads/${p.thumbnail.data.attributes.hash}.webp`} alt={p.name} width="500" heigth="500" />
 
             <div className="p-4 text-black/[0.9]">
                 <h2 className="text-lg font-medium">{p.name}</h2>
