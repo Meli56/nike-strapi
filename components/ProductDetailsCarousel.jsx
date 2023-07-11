@@ -15,7 +15,7 @@ const ProductDetailsCarousel = ({images}) => {
                 {images?.map((img) => (
                     <img
                         key={img.id}
-                        src={`https://shoe-store-uyxb.onrender.com/uploads/${img.attributes.hash}.webp`}
+                        src={`${img.attributes.url}`}
                         alt={img.attributes.name}
                     />
                 ))}
