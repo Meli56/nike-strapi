@@ -1,4 +1,5 @@
-#Pourquoi ?
+# Pourquoi ?
+
 Site e-commerce de vente de chaussure pour perfectionner mes compétences en React 
 Les pages "about" et "contact" ne sont pas impémentées pour le moment
 
