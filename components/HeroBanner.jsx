@@ -32,7 +32,7 @@ const HeroBanner = () => {
                 )}
             >
                 <div>
-                    <img
+                    <Image
                         src="/slide-1.png"
                         className="aspect-[16/10] md:aspect-auto object-cover"
                     />
@@ -42,7 +42,7 @@ const HeroBanner = () => {
                 </div>
 
                 <div>
-                    <img
+                    <Image
                         src="/slide-2.png"
                         className="aspect-[16/10] md:aspect-auto object-cover"
                     />
@@ -52,7 +52,7 @@ const HeroBanner = () => {
                 </div>
 
                 <div>
-                    <img
+                    <Image
                         src="/slide-3.png"
                         className="aspect-[16/10] md:aspect-auto object-cover"
                     />

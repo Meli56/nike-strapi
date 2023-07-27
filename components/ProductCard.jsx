@@ -8,7 +8,7 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
             href={`/product/${p.slug}`}
             className="transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer"
         >
-            <img src={`${p.thumbnail.data.attributes.url}`} alt={p.name} width="500" heigth="500" />
+            <Image src={`${p.thumbnail.data.attributes.url}`} alt={p.name} width="500" heigth="500" />
 
             <div className="p-4 text-black/[0.9]">
                 <h2 className="text-lg font-medium">{p.name}</h2>
